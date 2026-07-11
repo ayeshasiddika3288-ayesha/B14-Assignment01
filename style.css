@@ -1,4 +1,13 @@
-h2{
-    background-color: blue;
-    color: white;
+*{
+    margin: auto;
+    padding:   auto;
+}
+
+nav{
+    background-color: #ffffff;
+    height: 50px;
+    width: 1320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
