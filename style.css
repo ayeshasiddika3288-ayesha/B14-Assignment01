@@ -40,6 +40,7 @@ li a{
     border-radius: 10px;
     text-decoration: none;
     cursor: pointer;
+    box-shadow: none;
 }
 
 .navbar li a:hover{
@@ -55,13 +56,17 @@ li a{
 }
 
 .container{
-    width: 1320px;
+    
+
+}
+
+.banner-container{
+  width: 1320px;
     height: 600px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-image: url(./images/banner.jpg);
-    
     background-blend-mode: overlay;
     background-color: rgba(0, 0, 0, 0.6);
 }
@@ -76,6 +81,7 @@ li a{
     font-size: 60px;
     font-family: inter;
     color: #ffffff;
+    font-weight: bold;
 }
 
 .banner p{
@@ -89,5 +95,58 @@ li a{
     
 }
 
+.card-part{
+    width: 1320px;;
+    height: 1088px;
+   
+}
 
+.speakers{
+    background: #ffffffFF;
 
+}
+
+.speakers-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+}
+.speakers h2{
+    
+    height: 65px;
+    font-size: 56px;
+
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+   /* border-radius: 10px;*/
+    
+
+}
+
+.card .img{
+   width: 642px;
+   height: 324px
+}
+
+.card-content{
+text-align: space-between;
+}
+
+.card{
+ background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card p{
+  
+}
+
+.card h3{
+    
+}
