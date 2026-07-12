@@ -1,0 +1,1 @@
+"Can you give me some ideas  For a conference/event landing page, the missing section should help visitors trust the event or answer questions before they buy a ticket.
