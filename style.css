@@ -106,6 +106,8 @@
 .card-part{
     width: 1320px;;
     height: 1088px;
+    border-radius: 14px;
+    box-sizing: border-box;
    
 }
 
@@ -131,7 +133,6 @@
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     gap: 20px;
-   /* border-radius: 10px;*/
     
 
 }
@@ -162,7 +163,7 @@ text-align: space-between;
     max-width: 1100px;
     margin: 0 auto;
     padding: 60px 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: 'Arial Narrow Bold';
     text-align: center;
 }
 
