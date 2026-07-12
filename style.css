@@ -1,6 +1,6 @@
 *{
     margin: auto;
-    padding:   auto;
+    padding: auto;
 }
 
 .navbar-container{
@@ -22,11 +22,11 @@
 
 }
 
-ul{
+.navbar ul{
     display: flex;
     list-style: none;
 }
-li a{
+.navbar  li a{
     text-decoration: none;
     color: #000000;
     padding: 10px 15px;
@@ -38,9 +38,7 @@ li a{
     color: #ffffff;
     padding: 10px 15px;
     border-radius: 10px;
-    text-decoration: none;
     cursor: pointer;
-    box-shadow: none;
 }
 
 .navbar li a:hover{
@@ -94,7 +92,7 @@ li a{
 .btn{
     
 }
-
+/*card-part*/
 .card-part{
     width: 1320px;;
     height: 1088px;
@@ -149,4 +147,101 @@ text-align: space-between;
 
 .card h3{
     
+}
+ /* pricing-part */
+
+ .pricing_part{
+    width: 1440px;
+    height: auto;
+ }
+.pricing_part .parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+    width:1160px;
+    height: 444px;
+    margin:40px auto; 
+}
+
+.head-part{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.head-part h1{
+    height: 65px;
+    font-size: 56px;
+    text-align: center;
+}
+
+.head-part h2{
+
+
+}
+
+.head-part p{
+  text-align: center;
+}
+
+
+.standard-part{
+    background:#fff;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    display:flex;
+
+    flex-direction:column;
+}
+
+.standard-part p{
+    text-align: left;
+}
+
+.standard-part h2{
+    
+}
+.standard-part ul li{
+    
+
+    
+}
+
+.standard-part ul li a{
+    
+}
+
+.standard-part ul li a:hover{
+    color: #1d4ed8;
+    transition: 0.5s;
+}
+.standard-part .price-btn{
+   padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #2563eb;
+    background: #2563eb;
+    color: #fff;
+    width: 304.67px;
+}
+.price-btn:hover{
+    transition: 0.5s;
+    background-color: #1d4ed8;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.standard-part .bttn{
+    background-color: #ffffff;
+    color: #2563eb;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    width: 304.66px;
+    height: 45px;
+    cursor: pointer;
 }
